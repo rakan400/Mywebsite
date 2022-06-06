@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='Style.css')}}">
+    <title>Shortlinks</title>
+</head>
+
+<body >
+    <div class="header">
+        <div class="User_info">
+            <label for="username">Username: </label> Rakan. <br>
+            <label for="level">Level: </label>10
+            <label> / </label>
+            <label for="experience">exp: </label> 350
+        </div>
+        <button>Logout</button>
+        
+            <button>Mail</button>
+         
+       </div>
+       <div class="sidenavbar">
+           <a href="Coming Soon.html" class="logo">My Site</a>
+           <div class="sidenav">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('login') }}">Login</a>
+            <a href="{{ url_for('register') }}">Sign up</a>
+            <a href="{{ url_for('Ads') }}">Watch Ads</a>
+            <a href="{{ url_for('Shortlinks') }}">Shortlinks</a>
+            <a href="{{ url_for('Withdraw') }}">Withdraw</a>
+            <a href="{{ url_for('contact_us') }}">Contact Us</a>
+            <a href="{{ url_for('News') }}">News</a>
+           </div>
+       </div>
+
+    <h1><span class="shortlinkheadline">Shortlinks</span></h1>
+
+    <div class="midshort">
+        <div class="shortlinkblock">
+            <h2><span>Shortlink 1</span></h2>
+            <div class="shortlinkproperties">
+                <label>1/1 views</label>
+                <label>0.01 TRX</label>
+                <label>Easy</label> <br>
+            </div>
+            <div class="shortlinkbutton">
+                <button>Claim link</button>
+            </div>
+        </div>
+        <div class="shortlinkblock">
+            <h2><span>Shortlink 1</span></h2>
+            <div class="shortlinkproperties">
+                <label>1/1 views</label>
+                <label>0.01 TRX</label>
+                <label>Easy</label> <br>
+            </div>
+            <div class="shortlinkbutton">
+                <button>Claim link</button>
+            </div>
+        </div>
+        <div class="shortlinkblock">
+            <h2><span>Shortlink 1</span></h2>
+            <div class="shortlinkproperties">
+                <label>1/1 views</label>
+                <label>0.01 TRX</label>
+                <label>Easy</label> <br>
+            </div>
+            <div class="shortlinkbutton">
+                <button>Claim link</button>
+            </div>
+        </div>
+        <div class="shortlinkblock">
+            <h2><span>Shortlink 1</span></h2>
+            <div class="shortlinkproperties">
+                <label>1/1 views</label>
+                <label>0.01 TRX</label>
+                <label>Easy</label> <br>
+            </div>
+            <div class="shortlinkbutton">
+                <button>Claim link</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <nav>
+            <p> Copyrighted &#169; MySite.com 2021. All rights reserved. </p>
+        </nav>
+    </div>
+
+</body>
+
+</html>
